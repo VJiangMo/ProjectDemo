@@ -6,7 +6,7 @@
     "build_time": 1640217811547,
     "release": true
   },
-  "encryptLevel": 0,
+  "encryptLevel": 3,
   "useFeatures": [],
   "icon": "res/icon.png",
   "launchConfig": {
