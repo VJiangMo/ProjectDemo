@@ -9,14 +9,17 @@ var storage = storages.create("78ec1d38-059a-4887-94f0-109a9af12b6c"); //创建�
 var zwk_kami="";
 //--------------------作者/软件信息------------------------
 //开发者ID  (后台 左上角头像下方的ID)
-var DeveloperID = "14273";
-storage.put("DeveloperID","14273");
+var DeveloperID = "14";
+DeveloperID=DeveloperID+"273";
+storage.put("DeveloperID",DeveloperID);
 //API 密码 (后台 设置中的 接口安全密码)
-var ApiPassword = "854855";
-storage.put("ApiPassword","854855");
+var ApiPassword = "854";
+ApiPassword=ApiPassword+"855";
+storage.put("ApiPassword",ApiPassword);
 //软件名称
-var SoftwareName = "zwktyjb";
-storage.put("SoftwareName","zwktyjb");
+var SoftwareName = "zwkt";
+SoftwareName=SoftwareName+"yjb";
+storage.put("SoftwareName",SoftwareName);
 //卡密
 var CDK = "";
 //--------------------------------------------
@@ -435,7 +438,7 @@ function zhuye(){
 dialogs.build({
     title: "请输入卡密：",
     titleColor: "black",
-    content:"获取免费卡密，请加入vip:zwk234.com",
+    content:"免费卡密，请加入vip:zwk234.com",
     contentColor:"black",
     contentLineSpacing:0.5,
     inputPrefill: store_kami,

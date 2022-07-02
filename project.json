@@ -16,7 +16,7 @@
     "splashText": "欢迎使用",
     "stableMode": true
   },
-  "main": "ui.js",
+  "main": "ui_v6.js",
   "name": "模板",
   "optimization": {
     "removeAccessibilityService": false,
