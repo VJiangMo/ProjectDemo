@@ -1,0 +1,35 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "A8A68F64-32",
+    "build_number": 32,
+    "build_time": 1640217811547,
+    "release": true
+  },
+  "encryptLevel": 0,
+  "useFeatures": [],
+  "icon": "res/icon.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashIcon": "res/splashIcon.png",
+    "splashText": "欢迎使用",
+    "stableMode": true
+  },
+  "main": "ui.js",
+  "name": "模板",
+  "optimization": {
+    "removeAccessibilityService": false,
+    "removeOpenCv": false,
+    "unusedResources": false
+  },
+  "packageName": "com.qgdhb",
+  "permissionConfig": {
+    "requestListOnStartup": [
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ]
+  },
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "1.0"
+}
